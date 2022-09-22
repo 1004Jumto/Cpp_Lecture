@@ -18,6 +18,23 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="0920_Prac1.cpp" />
+    <ClCompile Include="0920_Prac2.cpp" />
+    <ClCompile Include="0922Prac1.cpp" />
+    <ClCompile Include="HelloWorld.cpp" />
+    <ClCompile Include="Part1_1_3.cpp" />
+    <ClCompile Include="Part1_1_4.cpp" />
+    <ClCompile Include="Practice1.cpp" />
+    <ClCompile Include="Practice2.cpp" />
+    <ClCompile Include="Practice3.cpp" />
+    <ClCompile Include="Practice4.cpp" />
+    <ClCompile Include="Practice5.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitattributes" />
+    <None Include=".gitignore" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -126,14 +143,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="HelloWorld.cpp" />
-    <ClCompile Include="Practice1.cpp" />
-    <ClCompile Include="Practice2.cpp" />
-    <ClCompile Include="Practice3.cpp" />
-    <ClCompile Include="Practice4.cpp" />
-    <ClCompile Include="Practice5.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
