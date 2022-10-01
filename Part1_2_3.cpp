@@ -5,6 +5,8 @@
 
 using namespace std;
 
+///////////// My Solution
+
 string solution(string bin1, string bin2);
 int toDecimal(string s);
 string toBinary(int n);
@@ -73,4 +75,52 @@ string toBinary(int n) {
         bi += v_bi[i];
     }
     return bi;
+}
+
+
+////////// Professor's Solution
+
+string makeAnswer(string ans, int i);
+int getDigit(string bin, int i);
+
+string solution_(string bin1, string bin2) {
+    string answer = "";
+    int a, b, c, s;     // 첫번째 자리, 두번째 자리, 자리올림용, 덧셈한 자릿값
+    int len = bin1.length();
+    c = 0;
+
+    if (len < bin2.length()) 
+        len = bin2.length();
+
+    for (int i = 0; i < len; i++) {
+        a = getDigit(bin1, i);
+        b = getDigit(bin2, i);
+        s = (a + b + c) % 2;
+        c = (a + b + c) / 2;
+
+        answer = makeAnswer(answer, s);
+    }
+
+    if (c == 1) {
+        answer = makeAnswer(answer, c);
+
+        return answer;
+    }
+}
+
+string makeAnswer(string ans, int i) {
+    if (i == 1) {
+        return "1" + ans;
+    }
+    else {
+        return "0" + ans;
+    }
+}
+
+int getDigit(string bin, int i) {
+    if (bin.length() < i) {
+        return bin[bin.length() - i - 1] - '0';
+
+    }
+    else return 0;
 }

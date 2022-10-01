@@ -19,13 +19,7 @@
     <None Include=".gitignore" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Part1_2_3.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Part1_2_1.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Part1_2_2.cpp">
+    <ClCompile Include="Part1_3_3.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="0920_Prac1.cpp">
@@ -44,6 +38,21 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Part1_1_4.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Part1_2_1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Part1_2_2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Part1_2_3.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Part1_3_1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Part1_3_2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Practice1.cpp">
