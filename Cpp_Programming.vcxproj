@@ -27,6 +27,8 @@
     <ClCompile Include="0920_Prac2.cpp" />
     <ClCompile Include="0922Prac1.cpp" />
     <ClCompile Include="HelloWorld.cpp" />
+    <ClCompile Include="Part1_11.cpp" />
+    <ClCompile Include="Part1_12.cpp" />
     <ClCompile Include="Part1_1_3.cpp" />
     <ClCompile Include="Part1_1_4.cpp" />
     <ClCompile Include="Part1_2_1.cpp" />

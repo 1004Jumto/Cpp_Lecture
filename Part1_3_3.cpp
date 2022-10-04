@@ -4,6 +4,7 @@
 
 using namespace std;
 
+////////// My Solution 
 vector<int> solution(vector<string> keyinput, vector<int> board);
 vector<int> moveKey(string input, vector<int> board_size, vector<int> pos);
 
@@ -46,5 +47,46 @@ vector<int> moveKey(string input, vector<int> board_size, vector<int> pos) {
 
     cout << pos[0] << " " << pos[1] << endl;
     return pos;
+}
+
+
+/////// Professor Solution
+vector<int> move(vector<int> cur, string key, vector<int> size);
+
+vector<int> solution(vector<string> keyinput, vector<int> board) {
+    vector<int> answer;
+    answer.push_back(0);
+    answer.push_back(0);
+    
+    for (int i = 0; i < keyinput.size(); i++) {
+        answer = move(answer, keyinput[i], board);
+    }
+
+    return answer;
+}
+
+vector<int> move(vector<int> cur, string key, vector<int> size) {
+    if (key == "down") {
+        if (cur[1] - 1 > -(size[1] / 2)) {
+            cur[1]--;
+        }
+    }
+    else if (key == "up") {
+        if (cur[1] - 1 < (size[1] / 2)) {
+            cur[1]++;
+        }
+    }
+    else if (key == "left") {
+        if (cur[0] - 1 > -(size[0] / 2)) {
+            cur[0]--;
+        }
+    }
+    else {
+        if (cur[0] - 1 < (size[0] / 2)) {
+            cur[0]++;
+        }
+    }
+
+    return cur;
 }
 
