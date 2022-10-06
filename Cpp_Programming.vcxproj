@@ -29,6 +29,8 @@
     <ClCompile Include="HelloWorld.cpp" />
     <ClCompile Include="Part1_11.cpp" />
     <ClCompile Include="Part1_12.cpp" />
+    <ClCompile Include="Part1_14.cpp" />
+    <ClCompile Include="Part1_14_Error.cpp" />
     <ClCompile Include="Part1_1_3.cpp" />
     <ClCompile Include="Part1_1_4.cpp" />
     <ClCompile Include="Part1_2_1.cpp" />
