@@ -39,6 +39,7 @@
     <ClCompile Include="Part1_3_1.cpp" />
     <ClCompile Include="Part1_3_2.cpp" />
     <ClCompile Include="Part1_3_3.cpp" />
+    <ClCompile Include="Part1_4_1.cpp" />
     <ClCompile Include="Practice1.cpp" />
     <ClCompile Include="Practice2.cpp" />
     <ClCompile Include="Practice3.cpp" />
