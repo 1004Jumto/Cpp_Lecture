@@ -1,7 +1,6 @@
 #include<iostream>
 #include<string>
 #include<vector>
-#include<algorithm>
 
 using namespace std;
 
@@ -9,7 +8,7 @@ string solution(string polynomial);
 
 int main(void) {
 	string str;
-	cin >> str;
+	getline(cin, str);
 
 	cout << solution(str) << endl;
 	return 0;
