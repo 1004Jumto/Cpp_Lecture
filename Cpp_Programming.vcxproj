@@ -23,8 +23,9 @@
     <None Include=".gitignore" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Part1_15.cpp" />
-    <ClCompile Include="Part1_16.cpp" />
+    <ClCompile Include="Part1_17.cpp" />
+    <ClCompile Include="Part1_18.cpp" />
+    <ClCompile Include="Part1_4_1.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
