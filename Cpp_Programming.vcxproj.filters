@@ -19,19 +19,10 @@
     <None Include=".gitignore" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Part1_4_1.cpp">
+    <ClCompile Include="Part2_1.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Part1_22.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Part1_23.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Part1_19.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Part1_20.cpp">
+    <ClCompile Include="Part2_2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
