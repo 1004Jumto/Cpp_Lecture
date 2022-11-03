@@ -23,8 +23,7 @@
     <None Include=".gitignore" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Part2_1.cpp" />
-    <ClCompile Include="Part2_2.cpp" />
+    <ClCompile Include="DynamicMemory.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
