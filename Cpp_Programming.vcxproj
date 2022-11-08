@@ -23,7 +23,50 @@
     <None Include=".gitignore" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="0920_Prac1.cpp" />
+    <ClCompile Include="0920_Prac2.cpp" />
+    <ClCompile Include="0922Prac1.cpp" />
+    <ClCompile Include="CRectangle.cpp" />
     <ClCompile Include="DynamicMemory.cpp" />
+    <ClCompile Include="Friend.cpp" />
+    <ClCompile Include="HelloWorld.cpp" />
+    <ClCompile Include="Inheritance.cpp" />
+    <ClCompile Include="Part1_11.cpp" />
+    <ClCompile Include="Part1_12.cpp" />
+    <ClCompile Include="Part1_14.cpp" />
+    <ClCompile Include="Part1_14_Error.cpp" />
+    <ClCompile Include="Part1_15.cpp" />
+    <ClCompile Include="Part1_16.cpp" />
+    <ClCompile Include="Part1_17.cpp" />
+    <ClCompile Include="Part1_18.cpp" />
+    <ClCompile Include="Part1_19.cpp" />
+    <ClCompile Include="Part1_1_3.cpp" />
+    <ClCompile Include="Part1_1_4.cpp" />
+    <ClCompile Include="Part1_20.cpp" />
+    <ClCompile Include="Part1_22.cpp" />
+    <ClCompile Include="Part1_23.cpp" />
+    <ClCompile Include="Part1_2_1.cpp" />
+    <ClCompile Include="Part1_2_2.cpp" />
+    <ClCompile Include="Part1_2_3.cpp" />
+    <ClCompile Include="Part1_3_1.cpp" />
+    <ClCompile Include="Part1_3_2.cpp" />
+    <ClCompile Include="Part1_3_3.cpp" />
+    <ClCompile Include="Part1_4_1.cpp" />
+    <ClCompile Include="Part2_1.cpp" />
+    <ClCompile Include="Part2_2.cpp" />
+    <ClCompile Include="Part2_3.cpp" />
+    <ClCompile Include="Part2_4.cpp" />
+    <ClCompile Include="Part2_4_1.cpp" />
+    <ClCompile Include="Practice1.cpp" />
+    <ClCompile Include="Practice2.cpp" />
+    <ClCompile Include="Practice3.cpp" />
+    <ClCompile Include="Practice4.cpp" />
+    <ClCompile Include="Practice5.cpp" />
+    <ClCompile Include="Sample.cpp" />
+    <ClCompile Include="StaticMembers.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sample.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
