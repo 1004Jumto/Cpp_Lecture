@@ -19,7 +19,10 @@
     <None Include=".gitignore" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Multi-Inheritance.cpp">
+    <ClCompile Include="Point.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Template1.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

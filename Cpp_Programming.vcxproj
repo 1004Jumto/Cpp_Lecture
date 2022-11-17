@@ -23,7 +23,8 @@
     <None Include=".gitignore" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Multi-Inheritance.cpp" />
+    <ClCompile Include="Point.cpp" />
+    <ClCompile Include="Template1.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
