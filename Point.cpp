@@ -13,7 +13,7 @@ public:
 	float getLength();
 	float operator*(Point& pos);		// friend이면 파라미터가 두개이고 멤버함수 아니다
 										// 멤버함수로 만들면 파라미터 하나만 받아도 됨
-	bool operator>(Point& pos); // Point끼리의 대소 비교
+	bool operator>(Point& pos);			// Point끼리의 대소 비교
 	friend ostream& operator<<(ostream& os, Point& pos);
 
 protected:			// 상속해주어야 하므로 protected로 선언함
@@ -52,12 +52,15 @@ ostream& operator<<(ostream& os, Point& pos)
 	return os;
 }
 
-bool Point::operator>(Point& pos) {
-	//if (this->x > pos.x)
+bool Point::operator>(Point& pos) 
+{
 	if (this->getLength() > pos.getLength()) {
 		return true;
+	}
 	return false;
 }
+
+
 
 //class ThreeDiPoint : public Point
 //{

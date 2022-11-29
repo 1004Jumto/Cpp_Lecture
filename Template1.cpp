@@ -12,6 +12,10 @@ public:
         b = second;
     }
     T getmax();
+    friend ostream& operator<<(ostream& os, mypair<T>& p) {
+        os << p;
+        return os;
+    }
 };
 
 template<class T>
@@ -22,11 +26,11 @@ T mypair<T>::getmax() {
 }
 
 int main(void) {
-   /* mypair <int> myobj(100, 75);
-    mypair <float> myobj2(75.2, 100.004);
+    mypair <int> myobj(100, 75);
+    mypair <float> myobj2(75.2, 100.04);
 
     cout << myobj.getmax() << endl;
-    cout << myobj2.getmax() << endl;*/
+    cout << myobj2.getmax() << endl;
 
     mypair <Point> myobj3(Point(1,2), Point(3,4));
     cout << myobj3.getmax() << endl;

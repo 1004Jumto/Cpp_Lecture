@@ -19,10 +19,7 @@
     <None Include=".gitignore" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Point.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Template1.cpp">
+    <ClCompile Include="ReadFile.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
