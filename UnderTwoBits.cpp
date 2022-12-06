@@ -26,8 +26,8 @@ long long FX::solution() {
 	long long i;
 
 	for (i = n + 1; diff(n, i) > limit(); i++) {
-		return i;
 	}
+	return i;
 	//diff(n, i) > 2 를 고치면 내가 원하는 자리수 검사를 할 수 있는데,, 상속을 이용하는 것이 좋음
 }
 
@@ -63,7 +63,6 @@ public:
 	// 허용하는 비트수를 만들어주는 함수를 하나 만든다.
 };
 
-
 FX2::FX2(long long n) : FX(n) { ; }
 
 int FX2::limit() {
@@ -80,6 +79,7 @@ int FX2::limit() {
 
 int main(void) {
 	long long n = 7;
+
 	FX fx(n);
 	cout << n << " : " << fx.solution() << endl;
 
