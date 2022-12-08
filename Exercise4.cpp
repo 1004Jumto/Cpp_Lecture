@@ -22,11 +22,11 @@ Converter::Converter() { ; }
 
 string Converter::reverse(string num)
 {
-	// 숫자 뒤집기
+	// 숫자 뒤집기 1200->0021
 	string tmp = "";
 
 	for (int i = num.length() - 1; i >= 0; i--) {
-		tmp = num[i] + tmp;
+		tmp += num[i];
 	}
 	
 	 return tmp;
@@ -70,7 +70,7 @@ string Number::changeNum(int _digit)
 		res = to_string(n % _digit) + res;
 	}
 
-	res += to_string(n);
+	res = to_string(n) + res;
 	digit = _digit;
 	snumber = res;
 
@@ -82,9 +82,10 @@ int Number::getNum() {
 	int res = 0;
 
 	for (int i = snumber.length() - 1, exp = 1; i >= 0; i--, exp *= digit) {
-		res += (snumber[i] * exp + '0');
+		res += (snumber[i] - '0') * exp;
 	}
 	number = res;
+
 	return res;
 }
 
@@ -94,16 +95,19 @@ void Number::setNum(string n)
 }
 
 
-int solution(int n) {
+int main(int n) {
 	int answer = 0;
 
 	Number mynum(45);
 	cout << mynum.getN() << endl;
 	mynum.changeNum(3);			
-	cout << mynum.getN() << endl;
+	cout << mynum.getSN() << endl;
 	
 	mynum.setNum(Converter::reverse(mynum.getSN()));
+	cout << mynum.getSN() << endl;
 
 	answer = mynum.getNum();
+	cout << answer;
+
 	return answer;
 }
