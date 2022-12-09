@@ -11,25 +11,45 @@
 
 using namespace std;
 
-class Spot
+class Polygon
 {
 public:
-	Spot(string dot, int w, int h);
-	void point();
+	Polygon(int w, int h);
+	virtual void draw() = 0;
 
-private:
-	string pattern;
+protected:
 	int width, height;
 };
 
-Spot::Spot(string dot, int w, int h) :pattern(dot), width(w), height(h) { ; }
+Polygon::Polygon(int w, int h) : width(w), height(h) { ; }
 
-void Spot::point()
+
+class Rect : public Polygon
 {
+public:
+	Rect(int w, int h);
+	void draw();
+
+private:
+
+};
+
+Rect::Rect(int w, int h) : Polygon(w, h) { ; }
+
+void Rect::draw() {
 	for (int i = 0; i < height; i++) {
 		for (int j = 0; j < width; j++) {
-			cout << pattern;
+			cout << "*";
 		}
 		cout << endl;
 	}
+}
+
+int main(void) {
+	int a, b;
+	cin >> a >> b;
+	Rect rect(a, b);
+	rect.draw();
+
+	return 0;
 }

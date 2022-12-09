@@ -110,25 +110,25 @@ bool MyString::isSpellOk()
 	return true;
 }
 
-int main(void) {
-	String s;
-	s.setString("Hello");
-
-	cout << "문자열 : " << s.getString() << endl;
-	cout << "길이   : " << s.getLength() << endl;
-
-	MyString ms;
-	ms.setString("2345");
-	
-	cout << "문자열 : " << ms.getString() << endl;
-	cout << "길이   : " << s.getLength() << endl;
-
-	if (ms.isLengthOk() && ms.isSpellOk()) {
-		cout << true;
-	}
-	else {
-		cout << false;
-	}
-
-	return 0;
-}
+//int main(void) {
+//	String s;
+//	s.setString("Hello");
+//
+//	cout << "문자열 : " << s.getString() << endl;
+//	cout << "길이   : " << s.getLength() << endl;
+//
+//	MyString ms;
+//	ms.setString("2345");
+//	
+//	cout << "문자열 : " << ms.getString() << endl;
+//	cout << "길이   : " << s.getLength() << endl;
+//
+//	if (ms.isLengthOk() && ms.isSpellOk()) {
+//		cout << true;
+//	}
+//	else {
+//		cout << false;
+//	}
+//
+//	return 0;
+//}
