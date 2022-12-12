@@ -23,7 +23,7 @@
     <None Include=".gitignore" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Exercise7_1.cpp" />
+    <ClCompile Include="Exercise7_3.cpp" />
     <ClCompile Include="Exercise8_1.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

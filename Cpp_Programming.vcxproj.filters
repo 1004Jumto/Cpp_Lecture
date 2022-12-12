@@ -19,7 +19,7 @@
     <None Include=".gitignore" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Exercise7_1.cpp">
+    <ClCompile Include="Exercise7_3.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Exercise8_1.cpp">
