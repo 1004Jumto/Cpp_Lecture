@@ -23,7 +23,8 @@
     <None Include=".gitignore" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Exercise16.cpp" />
+    <ClCompile Include="Exercise16_solution.cpp" />
+    <ClCompile Include="Exercise17.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
