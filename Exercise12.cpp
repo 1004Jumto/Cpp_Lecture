@@ -46,10 +46,10 @@ int Bits::solution() {
 	return i;
 }
 
-//int main(void) {
-//	Bits bit(7);
-//	cout << bit.solution();
-//
-//	return 0;
-//}
+int main(void) {
+	Bits bit(7);
+	cout << bit.solution();
+
+	return 0;
+}
 
